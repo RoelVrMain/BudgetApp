@@ -10,7 +10,6 @@ namespace BudgetApp.Models
         {
         }
 
-        // Voeg hier je DbSets toe voor inkomsten, uitgaven, etc.
         public DbSet<Income> Incomes { get; set; }
         public DbSet<Expense> Expenses { get; set; }
     }
